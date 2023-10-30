@@ -1,5 +1,5 @@
 def qnxh():
-    a = int(input('要计算的总数:'))
+    a = int(input('a='))
     b = (1+a)*a/2
     print(int(b))
 
