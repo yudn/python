@@ -2,7 +2,9 @@ import time
 
 import requests
 from bs4 import BeautifulSoup
-
+'''
+爬取网站搜索统计数据相关的结果
+'''
 
 def main():
 

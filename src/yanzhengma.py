@@ -9,4 +9,4 @@ if __name__ =="__main__":    #四位数字字母验证码的生成
             checkcode +=chr(random.randint(65,90) ) # 生成A~Z中的一个大写字母
         else:
             checkcode +=str(random.randint(1,9))  # 数字1-9
-    print(checkcode)
+    print(checkcode[0:4])
